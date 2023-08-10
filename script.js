@@ -9,12 +9,18 @@ function loadCards() {
                 const card = document.createElement('div');
                 card.classList.add('card');
 
+                // Create the image element and set the src attribute
+                const image = document.createElement('img');
+                image.src = item.image;
+
                 const title = document.createElement('h2');
                 title.textContent = item.title;
 
                 const content = document.createElement('p');
                 content.textContent = item.content;
 
+                // Append the image, title, and content to the card
+                card.appendChild(image);
                 card.appendChild(title);
                 card.appendChild(content);
                 cardContainer.appendChild(card);
