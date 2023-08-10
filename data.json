@@ -1,11 +1,52 @@
 [
   {
-    "title": "Fashion Trend 1",
-    "content": "This is the first fashion trend you need to know!"
+    "title": "Elevate Your Work Wardrobe",
+    "content": "Discover stylish and professional outfits for the office. Look confident and chic while making a statement.",
+    "image": "work_wardrobe.jpg"
   },
   {
-    "title": "Fashion Trend 2",
-    "content": "Stay stylish with the latest fashion tips."
+    "title": "Weekend Style Inspiration",
+    "content": "Get ready for the weekend with versatile and trendy outfits that effortlessly transition from brunch to evening events.",
+    "image": "weekend_style.jpg"
   },
-  ...
+  {
+    "title": "Global Fashion Trends",
+    "content": "Explore the latest fashion trends from around the world. Stay ahead of the curve with our trendspotting guide.",
+    "image": "global_trends.jpg"
+  },
+  {
+    "title": "Fashionable Office Accessories",
+    "content": "Complete your professional look with fashionable accessories that add flair to your work attire.",
+    "image": "office_accessories.jpg"
+  },
+  {
+    "title": "Casual Chic Essentials",
+    "content": "Discover the art of mixing and matching casual pieces to create a chic and comfortable everyday style.",
+    "image": "casual_chic.jpg"
+  },
+  {
+    "title": "The Little Black Dress",
+    "content": "Explore the timeless elegance of the little black dress. A must-have staple for any fashion-savvy individual.",
+    "image": "little_black_dress.jpg"
+  },
+  {
+    "title": "Fashionable Outerwear",
+    "content": "Stay warm and stylish with our selection of fashionable outerwear for the colder months. Embrace the winter in style.",
+    "image": "outerwear.jpg"
+  },
+  {
+    "title": "Eco-Friendly Fashion",
+    "content": "Discover eco-conscious fashion choices that not only look good but also contribute to a sustainable future.",
+    "image": "eco_fashion.jpg"
+  },
+  {
+    "title": "Effortless Summer Style",
+    "content": "Get ready for summer with breezy and effortless outfits that capture the essence of the season.",
+    "image": "summer_style.jpg"
+  },
+  {
+    "title": "Accessorize for Impact",
+    "content": "Learn how the right accessories can transform your look and make a statement in any outfit.",
+    "image": "accessorize.jpg"
+  }
 ]
