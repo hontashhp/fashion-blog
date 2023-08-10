@@ -9,9 +9,10 @@ function loadCards() {
                 const card = document.createElement('div');
                 card.classList.add('card');
 
-                // Create the image element and set the src attribute
+                // Create the image element and set attributes
                 const image = document.createElement('img');
                 image.src = item.image;
+                image.alt = item.title; // Set the alt attribute for accessibility
 
                 const title = document.createElement('h2');
                 title.textContent = item.title;
