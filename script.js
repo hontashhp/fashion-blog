@@ -1,4 +1,4 @@
-
+// Function to fetch and load JSON data into the card-container
 function loadCards() {
     fetch('data.json')
         .then(response => response.json())
@@ -30,3 +30,5 @@ function loadCards() {
         .catch(error => console.error('Error loading JSON data:', error));
 }
 
+// Call the loadCards function when the page is loaded
+window.addEventListener('load', loadCards);
