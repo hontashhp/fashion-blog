@@ -33,6 +33,19 @@ header img {
     margin-bottom: 20px;
     padding: 20px;
     box-sizing: border-box;
+    position: relative; /* Add relative positioning for the image */
+    overflow: hidden; /* Hide any overflow from the image */
+}
+
+/* Style for card image */
+.card img {
+    width: 100%; /* Set image width to match the card width */
+    height: 30%; /* Display the top 30% of the card */
+    object-fit: cover; /* Maintain image aspect ratio and cover the area */
+    position: absolute; /* Position the image absolutely within the card */
+    top: 0; /* Align the image to the top of the card */
+    left: 0; /* Align the image to the left of the card */
+    z-index: -1; /* Place the image behind the card content */
 }
 
 /* Style for card content */
